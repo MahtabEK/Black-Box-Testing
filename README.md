@@ -154,12 +154,11 @@ your upper boundary in this case.
   2) **bank.FeesCalculator.java**: The focus here is to check for the correct calculation of fees while
 performing withdrawal, deposit, and transfer.
 
-    o For withdrawal: Use Robust Worst Case Boundary Value Analysis to generate your test
-cases.
+  - For withdrawal: Use Robust Worst Case Boundary Value Analysis to generate your test cases.
 
-    o For deposit: Use Weak Robust Equivalence Class Analysis to generate your test cases.
+  - For deposit: Use Weak Robust Equivalence Class Analysis to generate your test cases.
     
-    o For transfer: Use Decision Table Analysis to generate your test cases
+  - For transfer: Use Decision Table Analysis to generate your test cases
 
 For each of the JUnit tests you can find:
 
