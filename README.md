@@ -57,3 +57,24 @@ amount withdrawn.
 amount withdrawn.
 
     - Otherwise, there is no fee
+    
+**Transfer**
+
+- If the client is a student and…
+
+  o If the amount withdrawn is less than $100 and…
+  
+    - If the balance of the account the money is coming from is less than $1,000 and…
+    
+      - If the balance of the account the money is going to is less than $1,000,
+then the fee is 0.1% of the amount withdrawn.
+
+      - Otherwise, the fee is 0.05% of the amount withdrawn
+      
+   - If, however, the balance of the account the money is coming from is $1,000, or more and…
+   
+     - If the balance of the account the money is going to is less than $1,000,
+then the fee is 0.5% of the amount withdrawn.
+  
+    - Otherwise, the fee is 0.25% of the amount withdrawn.
+
